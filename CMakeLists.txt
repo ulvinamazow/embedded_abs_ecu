@@ -8,5 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(include)
 
 # add executable with all source files
-file(GLOB SOURCES "src/*.cpp")   # src altındakı bütün cpp faylları avtomatik tapır
+file(GLOB SOURCES "src/*.cpp") 
 add_executable(abs_ecu_sim main.cpp ${SOURCES})
